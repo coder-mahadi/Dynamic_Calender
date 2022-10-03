@@ -150,3 +150,10 @@ header .btn:hover:after {
 .day_date ul.date li.inactive:hover:after {
     content: none;
 }
+
+/* responsive code here */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 85%;
+    }
+}
